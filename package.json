@@ -1,0 +1,19 @@
+{
+  "name": "clicky-react",
+  "version": "1.0.0",
+  "description": "The Clicky app is a simple memory game that utilizes React, whilst breaking the application's UI into components, manage component state, and respond to user events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madinah2491/Clicky-React.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madinah2491/Clicky-React/issues"
+  },
+  "homepage": "https://github.com/Madinah2491/Clicky-React#readme"
+}

@@ -1,10 +1,12 @@
 import React from "react";
 import "./FriendCard.css";
 
-const FriendCard = props => (
+const FriendCard = props => {
+  console.log("returned", props)
+  return (
   <div className="card">
     <div className="img-container">
-      <img alt={props.name} src={props.image} />
+      <img onClick={() => props.selectFriend()} alt={props.name} src={props.image} />
     </div>
     <div className="content">
       <ul>
@@ -23,6 +25,7 @@ const FriendCard = props => (
       𝘅
     </span>
   </div>
-);
+ )
+};
 
 export default FriendCard;
